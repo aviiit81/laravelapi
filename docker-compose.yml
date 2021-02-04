@@ -10,8 +10,8 @@ services:
     volumes:
       - ./:/var/www/html
   db:
-    image: mysql:5.7
-    restart: always
+    image: mysql:5.7.16
+    #restart: always
     ports: 
       - "3306:3306"
     environment:

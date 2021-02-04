@@ -12,14 +12,15 @@
             <directory suffix="Test.php">./tests/Feature</directory>
         </testsuite>
     </testsuites>
+
     <coverage processUncoveredFiles="true" pathCoverage="true">
         <include>
             <directory suffix=".php">./app</directory>
         </include>
 		
-		<report>
-			<html outputDirectory="html-coverage"/>
-		</report>
+	<report>
+	    <html outputDirectory="html-coverage"/>
+	</report>
     </coverage>
 
     <php>
